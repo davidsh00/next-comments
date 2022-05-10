@@ -1,6 +1,6 @@
 const dummyData = [
   {
-    id: "h-1",
+    id: "h1",
     title: "Hiring an employee",
     img: "images/employee.jpg",
     description:
@@ -10,7 +10,7 @@ const dummyData = [
     adTime: "2022-08-05",
   },
   {
-    id: "h-2",
+    id: "h2",
     title: "Hiring a worker",
     img: "images/worker.jpg",
     description: "for building works and he has expect in his work",
@@ -19,7 +19,7 @@ const dummyData = [
     adTime: "2022-06-05",
   },
   {
-    id: "h-3",
+    id: "h3",
     title: "Hiring a Front-End Developer",
     img: "images/web-developer.jpg",
     description:
