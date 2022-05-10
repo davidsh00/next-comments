@@ -1,0 +1,14 @@
+.btn{
+    padding:.5rem 1rem;
+    background-color: aquamarine;
+    color:black;
+    border-radius: 5px;
+    transition: all .4s;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: aqua;
+}

@@ -1,0 +1,28 @@
+.event_item{
+    display: flex;
+    height: 100%;
+    align-items: flex-start;
+}
+.event_img{
+    display: inline-block;
+    flex-shrink: 0;
+    width: 30%;
+    height: inherit;
+    overflow: hidden;
+
+}
+.event_img img{
+height: inherit;
+
+}
+.event_content{
+    display: flex;
+    flex-direction: column;
+    gap:.5rem;
+    flex-grow: 1;
+    padding:1rem;
+}
+.event_actions{
+    display: flex;
+    flex-direction: row-reverse;
+}
