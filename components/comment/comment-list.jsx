@@ -12,6 +12,9 @@ function CommentList({ list,setNeedUpdate }) {
       .then((responde) => responde.json())
       .then((data) => setNeedUpdate(true));
   }
+  if(!list|| list.length===0){
+    return <p>There is nothing to Show!</p>
+  }
   return (
     <ul className="comment-list">
       {list.map((item) => (

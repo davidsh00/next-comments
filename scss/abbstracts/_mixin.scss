@@ -27,3 +27,10 @@
     @warn "breakpoint mixin supports: xs, sm, md, lg, xl, xxl";
   }
 }
+
+@mixin hover {
+  &:hover{
+    @content;
+  }
+  
+}
