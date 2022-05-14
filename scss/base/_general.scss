@@ -1,0 +1,21 @@
+body{
+    background-color: $body-bg-clr;
+    color:$body-text-clr;
+}
+input,textarea{
+    border-radius: $small-border-radius;
+}
+
+%form-box{
+    border-radius: $base-border-radius;
+    padding:.5rem 1rem;;
+}
+%btn{
+    padding:.5rem 1rem;
+    background-color: rgb(223, 209, 4);
+    color:black;
+    border-radius: $small-border-radius;
+    cursor: pointer;
+    outline: none;
+    border:1px solid balck;
+}

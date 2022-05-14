@@ -1,0 +1,53 @@
+.comment-form {
+  @extend %form-box;
+  background-color: $form-bg-clr;
+  max-width: 576px;
+  margin: auto;
+
+  .form {
+    &-header {
+    }
+    &-content {
+      display: flex;
+      flex-flow: column;
+      & > * {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        @include breakpoint(sm) {
+          padding-right: 0.5rem;
+          padding-left: 0.5rem;
+        }
+      }
+      .form-input {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+        input,
+        textarea {
+          padding: 0.25rem;
+        }
+        @include breakpoint(sm) {
+          flex-basis: 50%;
+        }
+      }
+      @include breakpoint(sm) {
+        flex-flow: row wrap;
+      }
+    }
+    &-footer {
+      display: flex;
+      flex-direction: row-reverse;
+
+      button {
+        @extend %btn;
+        flex-grow: 1;
+        @include breakpoint(sm) {
+          flex-grow: 0;
+        }
+      }
+    }
+  }
+
+  .form-footer {
+  }
+}

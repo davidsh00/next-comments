@@ -1,0 +1,14 @@
+#home{
+    .section_{
+        &comment-list{
+            margin:0 auto;
+            margin-top: 2rem;
+            max-width: 576px;
+        }
+    }
+   .comment-list_title{
+       margin-bottom: 1rem;
+       padding-left: 1rem;
+       
+   } 
+}

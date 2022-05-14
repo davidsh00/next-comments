@@ -1,14 +1,11 @@
-import { Fragment } from "react";
-
-import "../styles/globals.css";
 import Layout from "../layout/layout";
-
-function MyApp({ Component, pageProps }) {
+import "../scss/styles.scss";
+export default function MyApp({ Component, props }) {
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <>
+      <Layout>
+        <Component {...props} />
+      </Layout>
+    </>
   );
 }
-
-export default MyApp;
